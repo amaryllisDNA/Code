@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge 1</title>
+    <link rel="stylesheet" href="freecodecamp 1.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p class="description" id="description">This survey form is a learning project to obtain a certification. It showcases everything I learned on HTML/CSS so far.</p>
+        <div class="container">
+            <div class="square deco"></div>
+            <div class="ornament deco"></div>
+            <div class="square deco"></div>
+        </div>
+    <form id="survey-form" method="POST">
+        <fieldset class="basic">
+            <h2>Basic very essential information</h2>
+            <hr>
+                <div class="container">
+                    <div class="div1">
+                        <label id="name-label" for="name">What's your name?<input type="text" id="name" name="name" placeholder="C3PO" required></label>
+                        <label id="email-label" for="email">You're looking fine as hell, can I get your email adress?<input class type="email" id="email" name="id" placeholder="schoeneaugen@wanadoo.fr" required></label>
+                        <label id="number-label" for="number">Thanks. When was your second youngest great-great-grandmother born?<input class="age" type="number" name="number" id="number" min="1800" max="1950" placeholder="so old"></label> 
+                    </div>
+                    <div class="div2">
+                        <img class="basic-gif" src="https://i.gifer.com/Ysvq.gif" alt="cute cat gif">
+                    </div>
+                </div>
+            </fieldset>
+        <fieldset class="mental">
+            <h2>#MentalHealthCheck</h2>
+            <hr>
+            <div class="text">
+                <label for="dropdown" id="dropdown-id">What was your inner weather like four days ago?
+                    <select id="dropdown">
+                        <option id="sunny" name="sunny">Sunny</option>
+                        <option id="rainy" name="rainy">Rainy</option>
+                        <option id="foggy" name="foggy">Foggy</option>
+                        <option id="windy" name="windy">Windy</option>
+                        <option id="stormy" name="stormy">Stormy</option>
+                    </select>
+                </label>
+            </div>
+            
+            <div class="text">
+                <label name="viennoiseries-label">Are you on team chocolatine or pain au chocolat? (the answer will remain private)</label>
+                <div class="inputs">
+                    <label for="viennoiseries" id="radio-label-1"><input type="radio" id="chocolatine" value="chocolatine"  name="viennoiseries">Chocolatine</label>
+                    <label for="viennoiseries" id="radio-label-2"><input type="radio" id="pain-au-chocolat" value="pain-au-chocolat"  name="viennoiseries">Pain au chocolat</label>
+                    <span class="rickroll"> Seek professional help <a href="https://www.dafk.net/what/">here</a>.</span>
+                </div>
+               
+            </div>
+            
+            <div class="text">
+                <label class="physics" id="physics-label">What are your favorite hydrocarbures?</label>
+                <div class="inputs">
+                    <label id="alkanes-id" for="physics"><input type="checkbox" name="physics" id="alkanes" value="alkanes">Alkanes</label>
+                    <label id="alkenes-id" for="physics"><input type="checkbox" name="physics" id="alkenes" value="alkenes">Alkenes</label>
+                    <label id="alkynes-id" for="physics"><input type="checkbox" name="physics" id="alkynes" value="alkynes">Alkynes</label>  
+                </div>
+            </div>
+        </fieldset>
+        <fieldset class="culture">
+            <h2>Some culture out there</h2>
+            <hr>
+            <label id="countrysong-label" for="countrysong">What are the lyrics to your favorite country song? <textarea rows="3" cols="25"  id="countrysong" name="countrysong" placeholder="If it hadn't been for Cotton-Eye Joe I'd been married long time ago..."></textarea></label>
+        </fieldset>
+        <button type="submit" id="submit">Submit babyyy</button>
+    </form>
+</body>
+<hr>
+<footer>
+    <p>A document created by <a href="https://www.linkedin.com/in/anth%C3%A9a-von-borowski-6a9149217/">Anthéa von Borowski</a></p>
+    <p>Creative Commons License</p>
+</footer>
+</html>

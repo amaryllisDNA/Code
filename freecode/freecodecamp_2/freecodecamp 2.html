@@ -1,0 +1,178 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Bowie Tribute Page</title>
+    <link rel="stylesheet" href="freecodecamp 2.css">
+    <link rel="stylesheet" href="MoiraiOne-Regular.ttf">
+</head>
+
+<!--OK Your tribute page should have a main element with a corresponding id of main, which contains all other elements
+    OK You should see an element with an id of title, which contains a string (i.e. text), that describes the subject of the tribute page 
+        (e.g. "Dr. Norman Borlaug")
+    OK You should see either a figure or a div element with an id of img-div
+    OK Within the #img-div element, you should see an img element with a corresponding id="image"
+    OK Within the #img-div element, you should see an element with a corresponding id="img-caption" that contains textual content describing the 
+        image shown in #img-div
+    OK You should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page
+    OK You should see an a element with a corresponding id="tribute-link", which links to an outside site, that contains additional information about 
+        the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to 
+        open in a new tab
+    OK Your #image should use max-width and height properties to resize responsively, relative to the width of its parent element, 
+        without exceeding its original size
+    OK Your img element should be centered within its parent element
+    Fulfill the user stories and pass all the tests below to complete this project. Give it your own personal style. Happy Coding!-->
+
+    
+    <header>
+        <h1 id="title"> David Bowie </h1>
+        <div class="container-star">
+            <div onclick="location.href='#section-1';" class="star star-B"></div></span>
+            <div onclick="location.href='#section-2';"class="star star-O"></div>
+            <div class="star-W">
+                <div onclick="location.href='#section-3';" class="star star-W1 duo"></div>
+                <div onclick="location.href='#section-3';"class="star star-W2 duo"></div>
+            </div>
+            <div onclick="location.href='#section-4';" class="star star-I"></div>
+            <div onclick="location.href='#section-5';" class="star star-E"></div>
+        </div>
+
+    </header>
+    <body>
+        <div class="image-part">
+            <div class="gallery" >
+                <img src="https://static.independent.co.uk/2020/10/13/14/ACC%20Bowie%20p089%20%C2%A9%20Sukita.jpg" alt="ziggy">
+                <img src="https://i.pinimg.com/originals/5f/05/98/5f0598e9e081066b30e19b249db46e43.jpg" alt="heroes">
+                <img src="https://i.guim.co.uk/img/media/5297c09212449a8317f6fcffa5f5a2b3868a72bb/0_1360_6023_3614/master/6023.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=ed0afb23a0b8606ca6d4362d3568f99d" alt="older">
+            </div>
+            <p>Bowie throughout his eras, as Ziggy Stardust, during his Berliner Trilogy Era, and during the 90s.</p>
+        </div>
+        <main id="main">
+            <section id="section-1">
+                <div class="header-section">
+                    <div class="star star-B"></div>
+                    <h2><span>B</span>orn to rock</h2>
+                </div>
+                <div class="container-section">
+                    <div class="container-img" id="bowie-young"></div>
+                    <div class="container-text">
+                        <p>Before Bowie came, David Jones, born on the 8th of January 1947, was already craving the spotlights. He studied in 
+                            Bromley Technical Highschool, were he studied artistic and musical practices.</p>
+                        <p>He founded his first rock 'n' roll band, the Konrads, in 1962 and has the ambition to become a pop star. He eventually 
+                            left the Konrads for the King Bees with whom he'll only remain for less than a month before joining the Manish Boys. </p>
+                        <p>David Jones made his <a target="_blank" id="tribute-link" href="https://www.youtube.com/watch?v=5W38suFC0Ow">first TV 
+                            appearance</a> on the BBC with the Manish boys in 1964. He presented himself as the founder of the Society for the 
+                            Prevention of Cruelty to Long-Haired Men (a funny moment).</p>
+                    </div> 
+                </div>
+                <hr>
+            </section>
+            <section id="section-2">
+                <div class="header-section">
+                    <div class="star star-O"></div>
+                    <h2><span>O</span>dyssey through space</h2>
+                </div>              
+                <div class="container-section">
+                    <div class="container-img" id="bowie-ziggy"></div>
+                    <div class="container-text">
+                        <p>The first thing that might come in mind when mentionning Bowie is his fascination for space, which he displayed 
+                            throughout his whole career.</p>
+                        <p>From Space Oddity in 1969, to Blackstar in 2016, Bowie contributed largely to the space rock culture, which was a 
+                            major musical movement in the 60-70s, with a specific focus on outfits and sounds.</p>
+                        <p>He made himself famous with his alias personalities, such as Major Tom, an astronaut who'll eventually be stuck in his 
+                            spaceship, Ziggy Stardust, an alien rockstar, Aladdin Sane...</p>
+                    </div> 
+                </div>
+                <hr>
+            </section>
+            <section id="section-3">
+                <div class="header-section">
+                    <div class="star-W">
+                        <div class="star star-W1"></div>
+                        <div class="star star-W2"></div>
+                    </div>
+                    <h2><span>W</span>onder in a modern world</h2>
+                </div>
+                <div class="container-section">
+                    <div class="container-img" id="bowie-fashion"></div>
+                    <div class="container-text">
+                        <p>Bowie was really well known for his novel look on technology and culture. His musical arrangements involved original 
+                            instruments and techniques, such as with Space Oddity and its Mellotron. In his later career, he even used computer 
+                            assisted techniques, for example for Hallo Spaceboy's lyrics writing . </p>
+                        <p>His approach to art was ubiquituous and involved painting, filming, writing, music...  </p> 
+                        <p>Bowie also understood the novelty of Internet, and created his owned Internet Provider named BowieNet. Even if the 
+                            concept would eventually be extremely successful in the following, at the time it didn't really hit the spot, and 
+                            the project was cancelled.
+                        </p>
+                    </div> 
+                </div>
+                <hr>
+            </section>
+            <section id="section-4">
+                <div class="header-section">
+                    <div class="star star-I"></div>
+                    <h2><span>I</span>nto the rabbit hole</h2></div>
+                </div>
+                <div class="container-section">
+                    <div class="container-img" id="bowie-bw"></div>
+                    <div class="container-text">
+                        <p>Bowie's career often related to mental health issues. His brother, as well as other members of his family were affected
+                            by schizophrenia. He often suffered from depression and always feared to also become mentally insane.
+                        </p>
+                        <p>He expressed this fear by writing songs. Examples involve All The Madmen, The Prisoner, his persona of Aladdin Sane </p>
+                        <p>However, he did put himself into states of controll loss, by consuming drugs throughout his whole career. This had an 
+                            particularly big impact on his career as it created the persona of "The Thin White Duke", who was extremely controversial.
+                            His addiction to drugs led him to even more experimental music, with for example the album "Station to Station" which he 
+                            didn't remember writing due to blackouts. But it also came with lifelong consequences and probably did have a role in his
+                            death from cancer.
+                        </p>
+                    </div> 
+                </div>
+                <hr>
+            </section>
+            <section id="section-5">
+                <div class="header-section">
+                    <div class="star star-E"></div>
+                    <h2><span>E</span>xiting the norms</h2>
+                </div>
+                <div class="container-section">
+                    <div class="container-img" id="bowie-exit"></div>
+                    <div class="container-text">
+                        <p>David Bowie was known for his particular appearance in his early career, with his colorful looks as he portrayed his 
+                            most famous character, Ziggy. Altogether, he did not care to pay respect to gender norms, and adopted an androgynous
+                            look. He is today an inspiration for artist like Harry Styles, who was on the cover of Vogue with a dress, just as 
+                            Bowie posed in a dress for "The Man Who Sold The World"'s cover.</p>
+                        <p>He also didn't mind to be open about his thoughts on queer culture, and did talk about his bisexuality multiple times. </p>
+                        <p>Finally, he experimented a lot, with controversial lyrics in "China Girl", "I'm Afraid of America", "Ashes to Ashes". Bowie
+                            would always be there where he wasn't expected. He wrote his last album knowing about his upcoming death, and managed to 
+                            surprise everybody with completely knew aesthetics, while remaining true to his past self, paying tribute to the start of 
+                            his career, and fascination for space.
+                        </p>
+                    </div> 
+                </div>
+            </section>
+            <hr>
+            <section class="tribute" id="tribute-info">
+                <h3>About the initiative</h3>
+                <figure id="img-div">
+                    <img src="https://media.gq-magazine.co.uk/photos/5d1398d9a624c437d2452688/master/pass/David-Aladdin-Sane-hp-GQ_11Jan16_getty_b.jpg" id="image">
+                    <figcaption id="img-caption">Thanks for coming here !</figcaption>
+                </figure>
+                <p>This website is a project ordered by FreeCodeCamp in order to obtain a coding certification. It displays all my knowledge on CSS, 
+                    going from HTML writing, to formatting, hover effects, responsiveness... 
+                    I do not own any of the image used in it. </p>            
+            </section>
+        </main>
+
+    </body>
+    <hr>
+    <footer>
+        <address>A website designed by <a href="https://www.linkedin.com/in/anth%C3%A9a-von-borowski-6a9149217/">Anthéa von Borowski</a></address>
+        <p>No Copyrights</p>
+    </footer>
+</html>
+
