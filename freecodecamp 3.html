@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="freecodecamp 3.css">
+    <title>Girlfriend<span class="copyright">©</span> Documentation</title>
+    
+</head>
+
+
+ 
+<body> 
+  
+    <nav id="navbar">
+        <img id="logo" src="heart.png">
+        <div class="header-section">
+            <header>Made with love</header>
+            
+        </div>  
+        <ul>                
+            <li><a class="nav-link" href="#Technical_Information">Technical Information</a></li>
+            <li><a class="nav-link" href="#Feed_Your_Girlfriend">Feed Your Girlfriend</a></li>
+            <li><a class="nav-link" href="#Emotional_Needs">Emotional Needs</a></li>
+            <li><a class="nav-link" href="#In_Case_of_Breakdown">In Case of Breakdown</a></li>
+            <li><a class="nav-link" href="#Good_to_Know">Good to know</a></li>
+    </nav>  
+    
+    <main id="main-doc">
+        <h1>Girlfriend<span class="copyright">©</span> User Guide</h1>
+        <section class="main-section" id="Technical_Information">
+            <header>Technical Information</header>
+            <p class="introduce"> Here you'll find the basic informations to get started with you Girlfriend<span class="copyright">©</span>.
+            <p>Your Girlfriend<span class="copyright">©</span> might not be delivered with full-battery and might need 
+                a nap before usage. Make sure to not use your Girlfriend<span class="copyright">©</span> with critically low battery.<br> <br>
+                She is the result of nine months of research and nineteen years
+                 of development and perfectionment. Be careful with your Girlfriend<span class="copyright">©</span>
+                 as she is a highly complex system that might react unexpectedly.<br>
+                 <br>Your Girlfriend<span class="copyright">©</span> is designed to be the most adorable human and has for purpose to make
+                 you happy.<br><br>
+                 You can communicate with your GirlfriendGirlfriend<span class="copyright">©</span>© in french, english, german, italian and spanish. 
+                However, bugs can occur. The development team is still working on improving your Girlfriend<span class="copyright">©</span>'s vocabulary and syntax.
+               
+        </section>
+        <section class="main-section" id="Feed_Your_Girlfriend">
+            <header>Feed Your Girlfriend</header>
+            <p class="introduce">Your Girlfriend<span class="copyright">©</span> seems off ? Might mean she needs a meal !</p>
+            <p>Remember to feed your Girlfriend<span class="copyright">©</span> every day, multiple times. Your Girlfriend<span class="copyright">©</span>
+                has nutritionary needs you should fulfill to keep her in function.<br></p>
+                
+                <h3>How to know your Girlfriend<span class="copyright">©</span> is hungry</h3>
+                <ul>
+                    <li>She told you she was hungry</li>
+                    <li>She didn't eat today</li>
+                    <li>She is sad</li>
+                    <li>She is grumpy</li>
+                    <li>She starts arguments without reasons</li>
+                    <li>She doesn't talk</li>
+                    <li>Cuddles do not help</li>
+                    <li>She is pacing around</li>
+                    <li>She has a knife and starts menacing you</li>
+                </ul>
+                
+            <p>Chocolate, pasta pesto, kebab, pizza, salad, sandwiches... Your Girlfriend<span class="copyright">©</span> can eat 
+                everything you eat, but remember to avoid any seafood.</p>
+            <div class="code_part">
+                <p>Here's a programm to figure out if your Girlfriend<span class="copyright">©</span> is hungry: </p>
+                <pre><code>
+hungry=input("Did your Girlfriend<span class="copyright">©</span> ask if you are hungry ? (yes/no)").lower()
+
+if hungry=="yes":
+    print("Your Girlfriend<span class="copyright">©</span> is hungry and waits for you to take her out. Ask her what she'd like to eat.")
+else:
+    mention=input("Did your Girlfriend<span class="copyright">©</span> asked if you'd like something specific ? (yes/no)").lower()
+    if mention=="yes":
+        specific=input("What exactly ?").lower()
+        print("Your Girlfriend<span class="copyright">©</span> is hungry, she wants to eat", specific, ". Suggest to take her out to eat", specific,".")
+    else:
+        restaurant=input("Did your Girlfriend<span class="copyright">©</span> tell you about some new restaurant she heard of ? (yes/no)").lower()
+        if restaurant=="yes":
+            specific=input("Which one exactly ?")
+            print("Your Girlfriend<span class="copyright">©</span> is hungry. Suggest to take her to", specific,".")
+        else:
+            print("It doesn't seem your Girlfriend<span class="copyright">©</span> is starving. You can still ask her !")
+                </code></pre></div>
+            <div class="warning">
+                <img src="warning.png" alt="warning-sign">
+                <p>Be careful when refusing to feed your Girlfriend<span class="copyright">©</span>, as it may cause agressive behaviours.<br>
+                If your girl is feeling sad, always go for Ben&Jerry's ice cream.<br>
+                On her period, make reserves of chocolate-based sweets.<br>
+                Your Girlfriend<span class="copyright">©</span> might not want to bother and will sometimes not mention not having eaten, 
+                    to prevent her for starving, ask her if she needs to eat, in case you had already eaten.</p>
+        </section>
+        <section class="main-section" id="Emotional_Needs">
+            <header>Emotional Needs</header>
+            <p class="introduce">Your Girlfriend<span class="copyright">©</span> is provided with cutting-edge emotional-system. Make sure to follow the instructions to fulfill her needs.</p>
+            <P>Your Girlfriend<span class="copyright">©</span> is a highly complex structure and comes with a palette of emotions and feelings that vary upon their environment in intensity and frequency. 
+                <br>Here is a non-exhaustive list :</P>
+                <ul>
+                    <li>happy</li>
+                    <li>sad</li>
+                    <li>angry</li>
+                    <li>excited</li>
+                    <li>peaceful</li>
+                    <li>stressed</li>
+                </ul>
+                <p>Some of these emotions are negative. If you want to keep your Girlfriend<span class="copyright">©</span> happy and peaceful, you should pay attention to her needs. <BR>
+                    Your Girlfriend<span class="copyright">©</span> needs to feel secure with you, prevent her from feeling lonely by making sure she feels loved.</p> 
+                      <div class="code_part">
+                <p>Here's a programm to figure out if your Girlfriend<span class="copyright">©</span> is feeling fulfilled.</p>
+                <pre><code> 
+kisses=int(input("How many kisses did you share today ? (number)"))
+hugs = int(input("How many times did you hug today ? (number)"))
+love=int(input("How many times did you tell her you love her today? number"))
+
+total=kisses+hugs+love
+if total<15:
+    print("You should show your Girlfriend<span class="copyright">©</span> more attention.")
+else: 
+    print("Good job, your Girlfriend<span class="copyright">©</span> should be filled with love.")
+                </code></pre></div>
+                <p> Remember to text your Girlfriend<span class="copyright">©</span> regularly, if you are far away, to let her know you too think about her.
+                    <BR> If she ever tells you she feels sad, make sure to listen to your Girlfriend<span class="copyright">©</span>'s feelings. Do not let your Girlfriend<span class="copyright">©</span> alone in such difficult times. 
+                </p>
+
+                <div class="warning">
+                    <img src="warning.png" alt="warning-sign">
+                    <p>Sometimes your Girlfriend<span class="copyright">©</span> will be sad with no apparent reason. Do not blame yourself directly, it might be related to a lot of external factors.<br> 
+                        Remember that you don't have to make your Girlfriend<span class="copyright">©</span>'s problems disappear, however making her feel heard is already a way to show her she can count on you. 
+                </div>
+                <p>There are some moment where you have to be extra cautious with your Girlfriend<span class="copyright">©</span> feelings. <br>These include:</p>
+                <ul>
+                    <li>Her period</li>
+                    <li>Stressful professional or academic times</li>
+                    <li>She didn't say a word for a while</li>
+                    <li>You are not as accessible as you wished</li>
+                </ul>
+                <div class="warning">
+                    <img src="warning.png" alt="warning-sign">
+                    <p>Be careful around bed time, as your Girlfriend<span class="copyright">©</span> might feel more emotional at night. If she tells you she doesn't feel right, it might not be ideal to fall alseep. 
+                        Show her you care about her and encourage her to sleep while making sure she is ready to handle her emotions on her own.</p>
+                </div>
+                <div class="code_part">
+                <p>Here's a programm to figure out wether your Girlfriend<span class="copyright">©</span> needs extra love before bed.</p>
+                <pre><code> 
+sleepyboy=input("Are you feeling sleepy ? (yes/no)").lower()
+sleepygirl=input("Is your Girlfriend<span class="copyright">©</span> feeling sleepy? (yes/no)").lower()
+
+if sleepyboy=="yes" and sleepygirl=="yes":
+    print("Alright ! Turn the lights off, tell her you love her and give her a goodnight kiss.")
+if sleepyboy=="yes" and sleepygirl=="no":
+    sad=input("Is your girlfriend feeling sad ?(yes/no)").lower()
+    if sad=="yes":
+        print("Give your Girlfriend<span class="copyright">©</span> cuddles and ask her why she's sad. Try to encourage her to fall asleep in your arms.")
+    if sad=="no":
+        print("Tell your Girlfriend<span class="copyright">©</span> you are going to sleep. Wish her a good night, give her a goodnight kiss.")
+if sleepyboy=="no" and sleepygirl=="yes":
+    print("Alright, tell her you love her, wish her a good night, give her a kiss and go on with your activities, but make sure not to be loud.")
+                </code></pre></div> 
+        </section>
+        
+        <section class="main-section" id="In_Case_of_Breakdown">
+            <header>In Case of Breakdown</header>
+            <p class="introduce">Your Girlfriend<span class="copyright">©</span> might be experiencing rough times and come to a breakdown. If this happens to your Girlfriend<span class="copyright">©</span>, you should follow these guidelines </p>
+            <p>Your Girlfriend<span class="copyright">©</span> has strong feelings that might lead her to burst out in tears unexpectedly. Be patient with your Girlfriend<span class="copyright">©</span>, as this is a sign of emotional or physical distress that might have accumulated over time.
+                To avoid this kind of situation, it is imperative to take care of your Girlfriend<span class="copyright">©</span> correctly (ref. <a href="#Emotional_Needs">Emotional Needs</a>).
+                <br> Here are a few potential reasons for a breakdown :</p>
+                <ul>
+                    <li>You are emotionally unavailable to her</li>
+                    <li>She didn't eat all day long (ref <a href="Feed_Your_Girlfriend">Feed Your Girlfriend</a>)</li>
+                    <li>She called her mom</li>
+                    <li>You don't pay attention to her feelings</li>
+                    <li>She is experiencing a general stressful time</li>
+                    <li>You hurt her feelings without apologizing</li>
+                    <li>You don't answer her texts / calls for a prolonged period of time</li>
+                </ul>
+                <p>You also have your own needs and your Girlfriend<span class="copyright">©</span> should not come across your boundaries. However, it may come to the point where both of you are simultaneously lacking regards for the other's needs. 
+                    Keep in mind that it is not appropriate to always let your Girlfriend<span class="copyright">©</span> prioritize your needs over hers. Each of you should be able to prioritize the other's needs from time to time.</p>
+                <div class="code_part">
+                    <p>Here's a programm to try to see if your Girlfriend<span class="copyright">©</span> is having a breakdown:</p>
+                    <pre><code>
+cry=input("Has your Girlfriend<span class="copyright">©</span> been crying for more than 5 minutes ?(yes/no) ").lower()
+if cry=="yes":
+    badcare=input("Did your Girlfriend<span class="copyright">©</span> mention multiple time a lack of care, in the past few days ? (yes/no)").lower()
+    if badcare=="yes":
+        print("Your Girlfriend<span class="copyright">©</span> is having a breakdown and needs your support.")
+    else:
+        print("Difficult to say. Your Girlfriend<span class="copyright">©</span> might as well just be sweating a lot from her eyes")
+else:
+    print("You're all good !")                       
+    </code></pre></div>
+
+                <p>You should always make sure to take care of your Girlfriend<span class="copyright">©</span> after a breakdown, as she will be in a weak state of mind afterwards. Never let your Girlfriend<span class="copyright">©</span> deal with it on her own unless she told you so.
+                    <br>Here are some things you could do to help your Girlfriend<span class="copyright">©</span> getting out of a breakdown.</p>
+                    <ul>
+                        <li>Hug her</li>
+                        <li>Make her eat and drink</li>
+                        <li>Reassure her with words</li>
+                        <li>Have sex</li>
+                        <li>Listen to her</li>
+                        <li>Show her you care</li>
+                    </ul>
+                    <div class="warning">
+                        <img src="warning.png" alt="warning-sign">
+                        <p>Never ever fall asleep during a breakdown as it gives the impression that your Girlfriend<span class="copyright">©</span> is your least preoccupation. Do not use your phone during a breakdown as well. Your Girlfriend<span class="copyright">©</span> is probably showing her feelings because she needs you to care. </p>
+                    </div>
+        </section>
+        <section class="main-section" id="Good_to_Know">
+            <header>Good to Know</header>
+            <ul>
+                <li>Your Girlfriend<span class="copyright">©</span> evolves everyday according to how you behave with her.</li>
+                <li>Your Girlfriend<span class="copyright">©</span> is absolutely not design to be a slave and won't necessarily obey to you.</li>
+                <li>You can only have one Girlfriend<span class="copyright">©</span> and your Girlfriend<span class="copyright">©</span> cannot be anyone else's.</li>
+                <li>Your Girlfriend<span class="copyright">©</span> loves you when you're happy, sad, angry, excited, moody, caring, silent...</li>
+                <li>Your Girlfriend<span class="copyright">©</span> couldn't be happier than she is with you. Thank you.</li>
+            </ul>
+            <div class="code_part">
+                <p>Here's a programm to know if you need to see your Girlfriend<span class="copyright">©</span> today:</p>
+                <pre><code>
+rateday=input("Rate your day on a scale going from 0 (terrible) to 10 (awesome).").int()
+if rateday <= 3:
+    print ("Your day was bad, you need to see your Girlfriend<span class="copyright">©</span> to feel better.")
+else:
+    if rateday<=7:
+        print("You could make it a 10 if you saw your Girlfriend<span class="copyright">©</span>.")
+    else:
+        print("It can't be a 10 if you did not see your Girlfriend<span class="copyright">©</span>.")
+    </code></pre></div>
+    </main>
+    <footer>
+        <address>A website designed by <a href="https://www.linkedin.com/in/anth%C3%A9a-von-borowski-6a9149217/">Anthéa von Borowski</a></address>
+        <p>No Copyrights</p>
+    </footer>
+</body>
+
+
+
+
+
+</html>
+
